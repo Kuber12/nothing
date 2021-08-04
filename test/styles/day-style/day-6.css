@@ -1,0 +1,25 @@
+body{
+    overflow-x: hidden;
+}
+.box{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto;
+    width: 600px;
+    height: 200px;
+    background-color: cornflowerblue;
+    color: cornsilk;
+    font-size: 20px;
+    border-radius: 20px;
+    box-shadow: 3px 6px 5px crimson;
+    transition: 3s ease;
+    transform: translateX(-200%);
+}
+.box:nth-of-type(even) {
+    transform: translateX(200%);
+}
+.box.show{
+    transform: translateX(0);
+}

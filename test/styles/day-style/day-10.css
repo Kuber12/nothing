@@ -1,0 +1,42 @@
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 500px;
+    background-color: rgb(192 59 245);
+    position: fixed;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left: 50%;
+    border-radius: 15px;
+    border: 2px rgb(173, 0, 173) solid;
+    padding: 80px 20px;
+}
+section h1{
+    color: rgb(0 0 0);
+    padding: 0px;
+    margin: 0px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+section .joke{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px 30px;
+}
+section button{
+    width: 150px;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 0px none;
+    background-color: rgb(247 0 255);
+    box-shadow: 2px inset black;
+    border: 2px solid #e5e5e5;
+    color:white;
+    margin-top: 10px;
+}
+section button:hover{
+    transform: scale(0.9,0.9);
+    transition: 100ms;
+}
