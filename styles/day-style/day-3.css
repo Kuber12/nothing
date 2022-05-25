@@ -1,0 +1,53 @@
+.rotated-main{
+    transition: 1s;
+    transform: rotate(-25deg);
+}
+main{
+    transition: 1s;
+    transform-origin: top left;
+    pointer-events: none;
+}
+.circle{
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 50%;
+    top: -100px;
+    left: -100px;
+    transform: rotate(0deg);
+    transition: 1s ease;
+}
+.show, .hide{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    font-size: 16px;
+    top: 55%;
+    left: 55%;
+}
+.hide{
+    z-index: 5;
+    left: 20%;
+}
+.rotate-circle{
+    transform: rotate(-90deg);
+}
+.elephant{
+    width: 100%;
+    height: auto;
+
+}
+.slide-nav{
+    position: absolute;
+    top:400px;
+    left:-225px;
+    transition: 1s;
+}
+.slided{
+    left: 0px;
+}
+.nav-after-slide{
+    list-style-type: none;
+    line-height:40px;
+}
